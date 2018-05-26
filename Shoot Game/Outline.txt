@@ -1,0 +1,36 @@
+https://docs.python.org/3.6/index.html
+
+0. Game Design: what we need?
+   - screen 
+   - pictures of castle, shooter(player),badguy
+1. Basic
+   - while loop (why refresh screen each time in while loop)
+   - for loop
+   - library: pygame, pygame.locals(https://www.pygame.org/docs/ref/locals.html)
+2. Draw more characters
+   - for loop: range - try to change range(width//grass.get_width()+1) to (width//grass.get_width())
+3. Make player move by keys W,S,A,D
+   - https://www.pygame.org/docs/ref/key.html
+   - +=1,-=
+4. Rotate player by mouse position 
+   - library: math
+5. Add arrows and make them move(shooting)
+   - list: append, pop
+6. Add badguys
+   - list again
+   - when badguy attack castle
+   - random
+7. Arrows vs. Badguys
+   - Rectangle collision check method
+   - operator: /,//,%
+8. Healthbar and Clock
+   - https://www.pygame.org/docs/ref/font.html -> render()
+9. Win or Lose
+   - How to decide? Time/HealthValue
+   - while condition changed to 'running' check
+10.Sound Effects
+   - pygame.mixer.Sound() (https://www.pygame.org/docs/ref/mixer.html)
+
+Homework:
+Do Pratice following https://www.devdungeon.com/content/gui-programming-python 
+   
